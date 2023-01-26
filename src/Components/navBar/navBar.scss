@@ -1,0 +1,19 @@
+nav{
+    border-bottom: 2px solid black;
+    background-color: gray;
+    height:200px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5 1fr);
+    // grid-template-rows: repeat (2,1fr)
+}
+
+.PageNavigation {
+    div {
+        padding:10px;
+        width: 300px;
+        display: inline-block;
+    }
+
+
+}

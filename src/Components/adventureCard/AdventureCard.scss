@@ -1,0 +1,48 @@
+.adventureCard {
+    max-width: 300px;
+    max-height:400px;
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    background-color: #F1F1F1;
+    border: solid black;
+    margin: .5em;
+
+
+    &__image {
+        height: 200px;
+        width: 200px;
+
+        img {
+            width: inherit;
+            height:inherit;
+        }
+    }
+
+    &__details {
+        font-size: 12px;
+        font-style: normal;
+        text-decoration: none;
+        justify-content: center;
+    }
+
+    // img {
+    // max-height: 200px;
+    // max-width: 200px;
+}
+    // &__image {
+    //     max-height: 200px;
+    //     max-width: 200px;
+    // }
+
+
+
+
+// img {
+//     max-height: 200px;
+//     max-width: 200px;
+// }
+
+// img {
+//     object-fit:contain;
+// }

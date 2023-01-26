@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import Adventure from "../adventureCard/AdventureCard";
+import "./AdventureList.scss";
 
 function AdventureList(props) {
   const { handleAddToCart, searchTerm } = props.props;
@@ -16,7 +17,6 @@ function AdventureList(props) {
       .catch((error) => console.log(error));
   }, [API]);
 
-
   //filter functionality
   let filteredAdventures = adventures;
 
@@ -30,7 +30,7 @@ function AdventureList(props) {
 
   return (
     <div>
-      <section className="Adventures col-2">
+      <section className="adventureList">
         {filteredAdventures.map((adventure) => {
           return (
             <Adventure

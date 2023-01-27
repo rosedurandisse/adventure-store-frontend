@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "./navBar.scss";
-import SearchBar from "../searchBar/searchBar";
 
 function NavBar(props) {
   const { countCartItems, searchTerm, setSearchTerm } = props;
@@ -24,9 +23,6 @@ function NavBar(props) {
             ) : null}
           </Link>
         </div>
-      </div>
-      <div className="SearchBar">
-        <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
       </div>
     </nav>
   );

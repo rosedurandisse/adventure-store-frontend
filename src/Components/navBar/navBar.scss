@@ -1,19 +1,24 @@
 nav{
-    border-bottom: 2px solid black;
-    background-color: gray;
-    height:200px;
-    text-align: center;
     display: grid;
-    grid-template-columns: repeat(5 1fr);
-    // grid-template-rows: repeat (2,1fr)
-}
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 2px solid black;
+    height:20px;
+    text-align: center;
+    padding:10px 0;
+    margin: 0px;
+    background-color: #FFFFFF;
 
-.PageNavigation {
-    div {
-        padding:10px;
-        width: 300px;
-        display: inline-block;
-    }
+   
+    // &__cart {
+    //     text-align: right;
+    // }
 
-
+    // &__pageNavigation {
+    //     padding:10px;
+    //     margin: auto;
+    //     background-color: green;
+    //     height: 20px;
+    //     // width: 300px;
+    //     // display: inline-block;
+    // }
 }

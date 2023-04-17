@@ -7,9 +7,8 @@ const SearchBar = ({ searchTerm, setSearchTerm }) => {
   };
 
   return (
-    <div className="SearchBar__input">
+    <div className="SearchBar">
       <input
-        className="searchBar"
         placeholder="Search an activity"
         value={searchTerm}
         onChange={updateSearchTerm}

@@ -123,6 +123,7 @@ function NewAdventure() {
         />
         <br />
         <input type="submit" />
+        {/* <button onClick={handleSubmit} /> */}
       </form>
       <Link to={`/adventures/${id}`}>
         <button>Nevermind!</button>

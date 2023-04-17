@@ -1,24 +1,25 @@
 nav{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 2fr 2fr 1fr;
     border-bottom: 2px solid black;
     height:20px;
-    text-align: center;
-    padding:10px 0;
-    margin: 0px;
+    width: 100%;
+    padding:15px 10px;
     background-color: #FFFFFF;
 
    
-    // &__cart {
-    //     text-align: right;
-    // }
+    &__cart {
+        text-align: right;
+        background-color: blue;
+    }
 
-    // &__pageNavigation {
+    // &__adventureList {
     //     padding:10px;
     //     margin: auto;
     //     background-color: green;
     //     height: 20px;
-    //     // width: 300px;
-    //     // display: inline-block;
+    //     grid-column: 1/3;
+        // width: 300px;
+        // display: inline-block;
     // }
 }
